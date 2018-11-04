@@ -1,0 +1,40 @@
+.wrapper {
+    width: auto !important;
+    min-width: auto !important;
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+}
+
+.title {
+    font-weight: lighter;
+    font-size: 58px;
+    letter-spacing: 2px;
+}
+
+.social-items {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    margin-right: 60px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #111111;
+    text-decoration: underline;
+}
