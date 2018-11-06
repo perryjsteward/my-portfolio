@@ -19,10 +19,10 @@ export class HeaderComponent implements OnInit {
 
   toggleNav(open) {
     if(open){
-      document.getElementById("mySidenav").style.width = "100%";
+      document.getElementById("mySidenav").style.height = "100%";
       window.addEventListener('scroll', this.noscroll);
     } else {
-      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("mySidenav").style.height = "0";
       window.removeEventListener('scroll', this.noscroll);
     }
     
