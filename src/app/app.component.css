@@ -12,6 +12,11 @@
     flex: 1 1 auto;
     padding-top: 70px;
   }
+
+  .box .row.about {
+    flex: 1 1 auto;
+    /* padding-top: 70px; */
+  }
   
   .box .row.footer {
     flex: 0 1 40px;

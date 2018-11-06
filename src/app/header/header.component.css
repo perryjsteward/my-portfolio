@@ -123,3 +123,69 @@
       transform: rotate(-90deg);
       transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
   
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  padding-left: 30px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 70px;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+
+.social-items {
+  position: absolute;
+  bottom: 70px;
+  /* left: 0; */
+  min-width: 800px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.social-items li {
+  float: left;
+}
+
+.social-items li a {
+  display: block;
+  text-align: center;
+  margin-right: 60px;
+  text-decoration: none;
+}
+
+.social-items li a:hover {
+  color: #111111;
+  text-decoration: underline;
+}
+
+.menu-items {
+  width: 200px;
+  padding-right: 200px !important;
+  padding-top: 20px;
+  list-style-type: none;
+  font-size: 24px;
+}
+
+.menu-items li {
+  margin-bottom: 60px !important;
+}
+
+.menu-items li a {
+  text-decoration: none;
+}
+
+.menu-items li a:hover {
+  color: #111111;
+  text-decoration: underline;
+}

@@ -1,8 +1,10 @@
 .wrapper {
     width: auto !important;
     min-width: auto !important;
-    margin-left: 100px !important;
-    margin-right: 100px !important;
+    margin-left: 110px !important;
+    margin-right: 110px !important;
+    margin-top: 100px;
+    padding-top: 30px;
 }
 
 .title {

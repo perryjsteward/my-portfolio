@@ -1,9 +1,25 @@
 <div id="navbar" class="wrapper" fxLayout="row">
   <a href="/"><img class="header__logo" src="./assets/logo.svg" /></a>
   <div fxFlex></div>
-  <!-- <div (click)="toggle=!toggle" [ngClass]="{'is-active': toggle}" class="hamburger hamburger--spin">
+  <div (click)="toggle=!toggle; toggleNav(toggle);" [ngClass]="{'is-active': toggle}" class="hamburger hamburger--spin">
     <div class="hamburger-box">
       <div class="hamburger-inner"></div>
     </div>
-  </div> -->
+  </div>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <div fxFlex></div>
+    <ul class="menu-items">
+        <li><a (click)="toggle=!toggle; toggleNav(toggle);" href="/#portfolio"><h1>Portfolio</h1></a></li>
+        <li><a (click)="toggle=!toggle; toggleNav(toggle);" href="/#about"><h1>About</h1></a></li>
+        <li><a (click)="toggle=!toggle; toggleNav(toggle);" href="/#contact"><h1>Contact</h1></a></li>
+    </ul>
+
+    <ul class="social-items">
+        <li><a target="_blank" href="https://www.instagram.com/_perrynaise/"><h2>Instagram</h2></a></li>
+        <li><a target="_blank" href="https://dribbble.com/perrah"><h2>Dribble</h2></a></li>
+        <li><a target="_blank" href="https://github.com/perryjsteward"><h2>Github</h2></a></li>
+        <li><a target="_blank" href="https://medium.com/@perryjsteward"><h2>Medium</h2></a></li>
+    </ul>
 </div>

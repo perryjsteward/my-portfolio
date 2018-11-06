@@ -9,11 +9,34 @@ import { DOCUMENT } from '@angular/common';
 export class HeaderComponent implements OnInit {
 
   toggle = false;
+  currentY: any;
+  currentX: any;
 
   constructor() { }
 
   ngOnInit() {
   }
+
+  toggleNav(open) {
+    if(open){
+      document.getElementById("mySidenav").style.width = "100%";
+      window.addEventListener('scroll', this.noscroll);
+    } else {
+      document.getElementById("mySidenav").style.width = "0";
+      window.removeEventListener('scroll', this.noscroll);
+    }
+    
+  }
+
+  noscroll() {
+    // window.scrollTo({
+    //   top: this.currentY,
+    //   left: 0,
+    //   behavior: 'smooth'
+    // });
+  }
+
+
 
 
 
